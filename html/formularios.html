@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <titlel>FORMULARIOS</titlel>
+        <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+        
+    </head>
+    <body>
+        <header>
+            <h1>FORMULARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+                <li> <a href="../html/index.html">INICIO </a></li>
+                  <li> <a href="../html/enlaces.html">ENLACES </a></li>
+                  <li> <a href="../html/lista.html">LISTAS </a></li>
+                  <li> <a href="../html/imagenes.html">IMAGENES </a></li>
+                  <li> <a href="../html/tablas.html">TABLAS </a></li>
+                  <li> <a href="../html/audio.html">AUDIO </a></li>
+                  <li> <a href="../html/videos.html">VIDEO </a></li>
+                  <li> <a href="../html/formularios.html">FORMULARIO </a></li>
+                
+            </ul>
+        </nav>
+        <main>
+        <section>
+            <h2>FORMULARIO DE INGRESOS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris risus tortor, euismod eget justo non, aliquet tempus nunc. Nam ante augue, malesuada sed dapibus at, fringilla vitae erat. Sed egestas sem vel vehicula faucibus. Nunc tempus tristique efficitur. Morbi porttitor ultricies lacus vel dictum. Donec volutpat elit lacus, et pretium justo pretium et. Aliquam eget iaculis tortor. Donec nisl turpis, faucibus id ornare ut, blandit quis ipsum. Quisque iaculis turpis odio, et eleifend arcu auctor sit amet. In leo dolor, tempor quis fermentum vitae, volutpat nec elit. Phasellus eleifend aliquet dignissim. Etiam mattis justo at consequat eleifend. Duis elit tortor, bibendum nec velit eget, egestas efficitur ipsum. Etiam a finibus magna, a dapibus nibh.</p>
+            <form id="form1" name="form1" method="get">
+            <label for="usuario">USUARIO</label>
+            <input name="usuario" type="text" id="usuario" maxlength="30">
+            <label for="password">CONTRASEÑA</label>
+            <input name="password" type="password" id="password" maxlength="8">
+            <br>
+            <br>
+            <input type="submit" name="submit" id="submit" value="Enviar">
+            </form>
+            </section>
+        <section>
+        <h2>FORMULARIOS CON DIFERENTES INPUT</h2>
+            <p>Praesent ut efficitur tortor. Vestibulum pulvinar, purus a consequat dapibus, dolor mauris mattis est, in sollicitudin mi sapien id augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur, nisl nec aliquet gravida, est ante ultrices libero, a consectetur nisi arcu nec odio. Nulla varius risus ut neque facilisis tincidunt. Mauris et metus sed ante egestas pretium vitae non nulla. Praesent eu consectetur leo, id congue quam. Vivamus a mi quam. Sed non libero id nisi tincidunt dictum venenatis eget nunc. Phasellus laoreet placerat justo mollis condimentum. Nam eu varius odio.</p>
+            <form id="form2" name="form2" method="get">
+            <label for="usuario">NOMBRE</label>
+                <br>
+            <input name="nombre" type="text" id="nombre">
+                <br>
+                <br>
+            <label for="apellidos">APELLIDOS</label>
+            <input name="apellidos" type="text" id="apellido">
+                <br>
+                <br>
+            <label for="edad">EDAD</label>
+            <input name="edad" type="number" id="edad" max="100" min="18">
+                <br>
+                <br>
+            <label for="pais">PAIS:</label>
+            <select name="pais" id="pais">
+            <option value="argentina">ARGENTINA</option>
+            <option value="bolivia">BOLIVIA</option>    
+            <option value="colombia">COLOMBIA</option>
+            <option value="mexico">MEXICO</option>
+            <option value="estados unidos">ESTADOS UNIDOS</option>
+            <option value="francia">FRANCIA</option>
+            <option value="suecia">SUECIA</option>
+            </select>
+            <br>
+            <br>
+            <label>GENERO:&nbsp;</label>
+                <br>
+                <input type="radio" name="GENERO" value="masculino" id="GENERO_0">
+                <label> MASCULINO </label>
+                <input type="radio" name="GENERO" value="femenino" id="GENERO_1">
+                <label> FEMENINO </label>
+                <br>
+                <br>
+               
+            <label>GENERO MUSICAL QUE PREFIERES:&nbsp;</label>
+                <br>
+                <label>
+                <input type="checkbox" name="musica" value="pop" id="musica_0">POP</label>
+                <br>
+                <label>
+                <input type="checkbox" name="musica" value="rock" id="musica_1">ROCK</label>
+                <br>
+                <label>
+                <input type="checkbox" name="musica" value="jazz" id="musica_2">JAZZ</label>
+                <br>
+                <label>
+                <input type="checkbox" name="musica" value="alternativa" id="musica_3">ALTERNTIVA</label>
+                <br>
+                <label>
+                <input type="checkbox" name="musica" value="clasica" id="musica_4">CLASICA</label>
+                <br>
+                <br>
+                <input type="submit" name="submit2" id="submit2" value="Enviar">
+                
+            </form>
+            </section>
+            <section>
+            <h2>FORMULARIO DE PREGUNTAS</h2>
+            <p>Responde las siguientes preguntas de acuerdo a tu gusto con las repuestas que más te identifiques</p>
+                <form id="form3" name="form3" method="get">
+                <label for="email">INTRODUCE TU EMAIL:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <label for="FECHA">FECHA EN QUE ESTAS CONTESTANDO ESTE FORMULARIO(agrega la hora actual):</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+                <br>
+                <br>
+                <label>FECHA DE NACIMIENTO:&nbsp;</label>
+                <br>
+                <label for="fnacimiento">Selecciona tu fecha de nacimiento:</label>
+                <input type="date" id="fnacimiento" name="datemin" max="2025-01-02" min="1950-01-02">
+
+                <br>
+                <br>
+                <label for="phone">INTRODUCE TU NUMERO DE TELEFONO:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]">
+                <br>
+                <br>
+                <label for="quantity">DEL 1 AL 5¿QUE TANTO USAS TU DISPOSITIVO MOVIL?</label>
+                <br>
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+                <br>
+                <br>
+                <label for="favcolor">SELECCIONA EL COLOR QUE TE REPRESENTA:</label>
+                <input type="color" id="favcolor" name="favcolor">
+                
+
+                
+                
+                
+                </form>
+            
+            
+            
+   </main>
+                <footer>
+                    <h5>Elaborado por: Katia Berenice Nolazco Conde</h5>
+                </footer>
+        </body>
+</html>
+        
